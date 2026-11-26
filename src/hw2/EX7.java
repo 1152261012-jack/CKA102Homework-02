@@ -10,10 +10,10 @@ package hw2;
 public class EX7 {
     public static void main(String[] args) {
         // 設定結束的字元為 'F'
-        char endChar = 'F';
+        char eChar = 'F';
 
         // 外層迴圈：控制目前的字元（從 'A' 開始，每一行換下一個字元）
-        for (char i = 'A'; i <= endChar; i++) {
+        for (char i = 'A'; i <= eChar; i++) {
 
             // 計算目前字元需要印出的次數
             // 'A' 的次數為 1 ('A' - 'A' + 1)
